@@ -44,52 +44,5 @@
 } */
 
 
-.contenedor1{
-  background-color: rgb(46, 44, 42);
-  display: flex;
-  text-align: center;
-  justify-content: space-between;
-  
-}
 
-.logo{
-  width: 100px;
-  height: 100px;
-  margin: 5px;
-}
 
-.titulo{
-  color: white;
-  margin-left: 20px;
-}
-
-.carrito{
-  color: white;
-  background-color: white;
-  margin-left: 500px;
-  margin: 20px;
-  width: 50px;
-  height: 50px;
-  margin-left: 760px;
-}
-
-.contenedor2{
-  display: grid;
-  grid-template-columns: repeat(4, 200px);
-  grid-template-rows: 200px 1fr;
-  grid-template-areas: 
-  'aside' 'header' 'header' 'header'
-  'aside' 'contenido';
-}
-
-.aside{
-  grid-area: aside;
-}
-
-.header{
-  grid-area: header;
-}
-
-.contenido{
-  grid-area: contenido;
-}
